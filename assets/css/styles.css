@@ -118,7 +118,7 @@ iframe {
 .header {
   padding: 30px 0;
   background: #426EAA;
-  border-top: 10px solid #626055;
+  border-top: 10px solid #202020;
 }
 .header .btn {
   margin-top: 60px;
@@ -142,7 +142,7 @@ iframe {
   margin-bottom: 15px;
 }
 .header .profile-content .social a {
-  background: #626055;
+  background: #202020;
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -498,17 +498,17 @@ iframe {
 }
 /* ======= Footer ======= */
 .footer {
-  background: #626055;
+  background: #202020;
   color: #fff;
   padding: 10px 0;
 }
 .footer .copyright {
   line-height: 1.6;
-  color: #a1aab4;
+  color: #fff;
   font-size: 14px;
 }
 .footer a {
-  color: #fff;
+  color: #a1aab4;
 }
 .footer .fa-heart {
   color: #fb866a;
@@ -533,6 +533,16 @@ iframe {
   .project-image {
     margin-bottom: 15px;
   }
+}
+/* Menu style */
+.navbar .nav li {
+    width: 100px; /* or whatever width you want for items */
+    display: inline-block;
+    float: none;
+}
+.navbar .nav {
+    float: none;
+    text-align: center;
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
