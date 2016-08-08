@@ -1,196 +1,95 @@
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
-<head>
-    <title>Miroslav Vidović | IT Engineer, Sofware Developer, Linux Enthusiast</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Miroslav Vidović Personal website">
-    <meta name="author" content="Miroslav Vidović">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+---
+layout: default
+title: Miroslav Vidović
+description: Miroslav Vidović is an IT Engineer, Software Developer and Linux Enthusiast from Bosnia and Herzegovina.
+---
+<div class="container sections-wrapper">
+  <div class="row">
+    <div class="primary col-md-8 col-sm-12 col-xs-12">
+      <section class="about section">
+        <div class="section-inner">
+          <h2 class="heading">About Me</h2>
+          <div class="content">
+            <p>Hi. My name is Miroslav Vidović. I am an IT Engineer from Bosnia and Herzegovina.</p>
+            <p></p>
+          </div><!--/content-->
+        </div><!--/section-inner-->
+      </section><!--/section-->
 
-    <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"/>
-    <!-- github acitivity css -->
-    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+      <section class="github section">
+        <div class="section-inner">
+          <h2 class="heading">My GitHub</h2>
+          <p>You can track my GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget.
+          <div id="github-graph" class="github-graph">
 
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+          </div><!--/github-graph-->
 
-</head>
+          <p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.
+          <div id="ghfeed" class="ghfeed">
 
-<body>
-    <!-- ******HEADER****** -->
-    <header class="header">
-        <div class="container">
-            <img class="profile-image img-circle img-responsive pull-left" src="assets/images/profile.jpg" alt="Miroslav Vidović" />
-            <div class="profile-content pull-left">
-                <h1 class="name">Miroslav Vidović</h1>
-                <h2 class="desc">IT Engineer, Software Developer, Linux Enthusiast</h2>
-                <ul class="social list-inline">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-                    <li class="last-item"><a href="#"><i class="fa fa-bitbucket"></i></a></li>
-                </ul>
-            </div><!--//profile-->
-        </div><!--//container-->
-    </header><!--//header-->
-    <!-- Menu -->
-    <nav class="navbar navbar-inverse">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Bootstrap theme</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="cv/index.html">CV</a></li>
-            <li><a href="#about">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+          </div><!--/ghfeed-->
+        </div><!--/secton-inner-->
+      </section><!--/section-->
+    </div><!--/primary-->
 
-    <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>Write a brief intro about yourself. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+    <div class="secondary col-md-4 col-sm-12 col-xs-12">
+      <aside class="info aside section">
+        <div class="section-inner">
+          <h2 class="heading sr-only">Basic Information</h2>
+          <div class="content">
+            <ul class="list-unstyled">
+              <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Zvornik, Bosnia and Herzegovina</li>
+              <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">miroslav-vidovic@hotmali.com</a></li>
+              <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://vidovicmiroslav.bitbucket.org/</a></li>
+            </ul>
+          </div><!--/content-->
+        </div><!--/section-inner-->
+      </aside><!--/aside-->
 
-        <p>It's a good idea to include your personal interests and hobbies as well. Commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <aside class="list os aside section">
+        <div class="section-inner">
+          <h2 class="heading">Favourite OS</h2>
+          <div class="content">
+            <p>I've been using various Linux distributions since 2013. At present, I'm using Ubuntu 16.04 with Unity desktop,
+              and Linux Mint 18 with Cinnamon desktop, because they fit perfectly with my needs and my workflow.</p>
+            <ul class="list-unstyled">
+              <li><i class="fa fa-linux"></i> <a href="http://www.ubuntu.com/desktop" target="_blank">Ubuntu 16.04</a></li>
+              <li><i class="fa fa-linux"></i> <a href="https://www.linuxmint.com/" target="_blank">Linux Mint 18</a></li>
+            </ul>
+          </div><!--/content-->
+        </div><!--/section-inner-->
+      </aside><!--/section-->
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+      <aside class="list code aside section">
+        <div class="section-inner">
+          <h2 class="heading">Favourite code editor</h2>
+          <div class="content">
+            <p>I spend a lot of time working in the terminal, and that's why I like VIM.</p>
+            <p>Another tool that is great in combination with Vim is Tmux (terminal multiplexer).</p>
+            <p>Together they make a perfect code editor.</p>
+            <ul class="list-unstyled">
+              <li><i class="fa fa-code"></i> <a target="_blank" href="http://www.vim.org/">VIM</a></li>
+              <li><i class="fa fa-terminal"></i> <a target="_blank" href="https://tmux.github.io/">Tmux</a></li>
+            </ul>
+          </div><!--/content-->
+        </div><!--/section-inner-->
+      </aside><!--/section-->
 
-                <section class="github section">
-                    <div class="section-inner">
-                        <h2 class="heading">My GitHub</h2>
-                        <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget.
+      <aside class="list music aside section">
+        <div class="section-inner">
+          <h2 class="heading">Favourite coding music</h2>
+          <div class="content">
+            <p>I love to listen to music while writing code.</p>
+            <ul class="list-unstyled">
+              <li><i class="fa fa-headphones"></i>Phil Collins</li>
+              <li><i class="fa fa-headphones"></i>Calvin Harris</li>
+              <li><i class="fa fa-headphones"></i>Robin Schulz</li>
+              <li><i class="fa fa-headphones"></i>Classical music</li>
+            </ul>
+          </div><!--/content-->
+        </div><!--/section-inner-->
+      </aside><!--/section-->
 
-                        <div id="github-graph" class="github-graph">
-
-                        </div><!--//github-graph-->
-
-                        <p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.
-                        <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->
-                        <div id="ghfeed" class="ghfeed">
-
-                        </div><!--//ghfeed-->
-
-                    </div><!--//secton-inner-->
-                </section><!--//section-->
-            </div><!--//primary-->
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Zvornik, Bosnia and Herzegovina</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">miroslav-vidovic@hotmali.com</a></li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://vidovicmiroslav.bitbucket.org/</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//aside-->
-
-                <aside class="list os aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Favourite OS</h2>
-                        <div class="content">
-                            <p>I've been using various Linux distributions since 2013. At present, I'm using Ubuntu 16.04 with Unity desktop,
-                              and Linux Mint 18 with Cinnamon desktop, because they fit perfectly with my needs and my workflow.</p>
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-linux"></i> <a href="http://www.ubuntu.com/desktop" target="_blank">Ubuntu 16.04</a></li>
-                                <li><i class="fa fa-linux"></i> <a href="https://www.linuxmint.com/" target="_blank">Linux Mint 18</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="list code aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Favourite code editor</h2>
-                        <div class="content">
-                            <p>I spend a lot of time working in the terminal, and that's why I like VIM.</p>
-                            <p>Another tool that is great in combination with Vim is Tmux (terminal multiplexer).</p>
-                            <p>Together they make a perfect code editor.</p>
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-code"></i> <a target="_blank" href="http://www.vim.org/">VIM</a></li>
-                                <li><i class="fa fa-terminal"></i> <a target="_blank" href="https://tmux.github.io/">Tmux</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="list music aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Favourite coding music</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="#">Ut sollicitudin in mauris non auctor</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-            </div><!--//secondary-->
-        </div><!--//row-->
-    </div><!--//masonry-->
-
-    <!-- ******FOOTER****** -->
-    <footer class="footer">
-        <div class="container text-left">
-          <small class="copyright">Miroslav Vidović 2016</small>
-        </div>
-        <div class="container text-left">
-          <small class="copyright">Template designed by <a href="http://themes.3rdwavemedia.com" target="_blank">3rdwavemedia</a></small>
-        </div><!--//container-->
-    </footer><!--//footer-->
-
-    <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
-    <!-- github calendar plugin -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="assets/js/mustache.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
-</body>
-</html>
+    </div><!--/secondary-->
+  </div><!--/row-->
+</div><!--/masonry-->
