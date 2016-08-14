@@ -28,18 +28,18 @@ jQuery(document).ready(function($) {
     $("#rss-feeds").rss(
 
         //Change this to your own rss feeds
-        "http://feeds.feedburner.com/TechCrunch/startups",
+        "https://www.goodreads.com/review/list_rss/46435258?key=5rOAcl3XTXMojTPLiL_12ZjLiY6WSVBoZxPxvaK_g1DCATJy&shelf=currently-reading",
 
         {
         // how many entries do you want?
         // default: 4
         // valid values: any integer
-        limit: 3,
+        limit: 16,
 
         // the effect, which is used to let the entries appear
         // default: 'show'
         // valid values: 'show', 'slide', 'slideFast', 'slideSynced', 'slideFastSynced'
-        effect: 'slideFastSynced',
+        effect: 'slideFast',
 
         // outer template for the html transformation
         // default: "<ul>{entries}</ul>"
@@ -49,7 +49,7 @@ jQuery(document).ready(function($) {
         // inner template for each entry
         // default: '<li><a href="{url}">[{author}@{date}] {title}</a><br/>{shortBodyPlain}</li>'
         // valid values: any string
-        entryTemplate: '<h3 class="title"><a href="{url}" target="_blank">{title}</a></h3><div><p>{shortBodyPlain}</p><a class="more-link" href="{url}" target="_blank"><i class="fa fa-external-link"></i>Read more</a></div>'
+        entryTemplate: '<span><a href="{url}" target="_blank">{teaserImage}</a></span>'
 
         }
     );
