@@ -532,3 +532,7 @@ a.dotted-link:hover {
     width: 1360px;
   }
 }
+
+/* Obfuscate the mail addres */
+.obfuscate { unicode-bidi: bidi-override; direction: rtl; }
+
