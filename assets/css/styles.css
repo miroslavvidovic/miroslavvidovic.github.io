@@ -300,6 +300,8 @@ a.dotted-link:hover {
 /* Git section */
 .github-graph {
   margin-bottom: 30px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 .github-graph .js-calendar-graph-svg {
   max-width: 100%;
