@@ -101,16 +101,16 @@
     height: 26px;
 }
 
-.left.text-muted {
+.float-left.text-gray {
     float: left;
     margin-left: 9px;
     color: #fff;
 }
-.left.text-muted a {
+.float-left.text-gray a {
     color: #689d6a;
     text-decoration: none;
 }
-.left.text-muted a:hover,
+.float-left.text-gray a:hover,
 .monospace a:hover {
     text-decoration: underline;
 }
