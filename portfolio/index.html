@@ -4,23 +4,32 @@ title: Portfolio
 description: Miroslav Vidović is an IT Engineer, Software Developer and Linux Enthusiast from Bosnia and Herzegovina.
 ---
 <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-md-12 col-sm-12 col-xs-12">
-               <section class="latest section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Projects</h2>
-                        <div class="content">
-                            <hr class="divider" />
+    <div class="row">
+        <div class="primary col-md-12 col-sm-12 col-xs-12">
+            <section class="latest section">
+                <div class="section-inner">
+                    <h2 class="heading">Latest Projects</h2>
+                    <div class="content">
+                        <hr class="divider" />
 
-                            {% for project in site.my_projects %}
+                        {% for project in site.my_projects %}
                             <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="{{ project.live-link }}" target="_blank">
-                                    <img class="img-responsive project-image" src="{{ project.image_path }}" alt="{{ project .title}}" />
-                                </a>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <img class="img-responsive project-image" src="{{ project.image_path }}" alt="{{ project.title}}" />
+                                </div>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="" target="_blank">{{ project.title }}</a></h3>
+                                    <h3 class="title">{{ project.title }}</h3>
                                     <p> {{ project.content }}</p>
-                                    <p><a class="more-link" href="" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+
+                                    {% if project.live-link != null %}
+                                        <p><a class="more-link" href="{{ project.live-link }}" target="_blank"><i class="fa fa-external-link"></i>View live</a></p>
+                                    {% endif %}
+                                    {% if project.github-link != null %}
+                                        <p><a class="more-link" href="{{ project.github-link }}" target="_blank"><i class="fa fa-external-link"></i>View on GitHub</a></p>
+                                    {% endif %}
+                                    {% if project.bitbucket-link != null %}
+                                        <p><a class="more-link" href="{{ project.bitbucket-link }}" target="_blank"><i class="fa fa-external-link"></i>View on BitBucket</a></p>
+                                    {% endif %}
                                 </div><!--//desc-->
                             </div><!--//item-->
                             <hr class="divider" />
