@@ -575,3 +575,10 @@ a.dotted-link:hover {
 .section .section-inner {
     background:#262626;
 }
+
+/* Style for github calendar heading
+ * 342 contributions in the past year*/
+.f4{
+    font-size: 20px;
+    text-align: center;
+}
