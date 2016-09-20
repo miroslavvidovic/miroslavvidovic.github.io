@@ -576,9 +576,7 @@ a.dotted-link:hover {
     background:#262626;
 }
 
-/* Style for github calendar heading
- * 342 contributions in the past year*/
-.f4{
-    font-size: 20px;
-    text-align: center;
+/* Hide heading with number of commits in the past year */
+h2.f4.text-normal.mb-3 {
+    display: none;
 }
