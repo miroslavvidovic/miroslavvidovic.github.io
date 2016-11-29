@@ -307,7 +307,12 @@ a.dotted-link:hover {
   margin-bottom: 30px;
   margin-left: -15px;
   margin-right: -15px;
+  text-align: center;
 }
+.github-graph .f4{
+  font-size: 25px;
+}
+
 .github-graph .js-calendar-graph-svg {
   max-width: 100%;
 }
