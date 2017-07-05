@@ -582,6 +582,6 @@ a.dotted-link:hover {
 }
 
 /* Hide heading with number of commits in the past year */
-h2.f4.text-normal.mb-3 {
+h2.f4.text-normal.mb-2 {
     display: none;
 }
